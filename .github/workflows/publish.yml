@@ -33,7 +33,7 @@ jobs:
         run: pip install -r requirements.txt
         
       - name: Download current version of the site
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           # HERE, YOU NEED TO PLACE YOUR REPOSITORY
           repository: 'AbinayaM02/abinayam02.github.io'
